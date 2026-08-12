@@ -1,0 +1,73 @@
+{
+  "version": 0.1,
+  "outcomes": [
+    [
+      "TimeSeriesOutcome",
+      "Mean Species Abundance",
+      "Mean Species Abundance.csv"
+    ],
+    [
+      "TimeSeriesOutcome",
+      "Commercial N application for agriculture",
+      "Commercial N application for agriculture.csv"
+    ],
+    [
+      "TimeSeriesOutcome",
+      "Prevalence of Undernourishment",
+      "Prevalence of Undernourishment.csv"
+    ],
+    [
+      "TimeSeriesOutcome",
+      "Total Agricultural Land Demand",
+      "Total Agricultural Land Demand.csv"
+    ],
+    [
+      "TimeSeriesOutcome",
+      "Total Freshwater Withdrawal for Food",
+      "Total Freshwater Withdrawal for Food.csv"
+    ],
+    [
+      "TimeSeriesOutcome",
+      "Total GHG Emissions from AFOLU",
+      "Total GHG Emissions from AFOLU.csv"
+    ]
+  ],
+  "experiments": {
+    "Custom scenario market share of alternative proteins[AltPasMeat]": "float64",
+    "Custom scenario market share of alternative proteins[AltCropMeat]": "float64",
+    "Custom scenario market share of alternative proteins[AltDairy]": "float64",
+    "Custom scenario market share of alternative proteins[AltEggs]": "float64",
+    "End Year of AP": "float64",
+    "End Year of Feed Switch": "float64",
+    "End Year of Fertiliser": "float64",
+    "End Year of FWL Switch": "float64",
+    "End Year of Global Diet": "float64",
+    "End Year of Yield": "float64",
+    "Feed Switch": "float64",
+    "Fertiliser Multiplier": "float64",
+    "Fraction of alternative protein types in the market[AltPasMeat,Plant]": "float64",
+    "Fraction of alternative protein types in the market[AltPasMeat,PrecFerm]": "float64",
+    "Fraction of alternative protein types in the market[AltPasMeat,Cult]": "float64",
+    "Fraction of alternative protein types in the market[AltCropMeat,Plant]": "float64",
+    "Fraction of alternative protein types in the market[AltCropMeat,PrecFerm]": "float64",
+    "Fraction of alternative protein types in the market[AltCropMeat,Cult]": "float64",
+    "Fraction of alternative protein types in the market[AltDairy,Plant]": "float64",
+    "Fraction of alternative protein types in the market[AltDairy,PrecFerm]": "float64",
+    "Fraction of alternative protein types in the market[AltDairy,Cult]": "float64",
+    "Fraction of alternative protein types in the market[AltEggs,Plant]": "float64",
+    "Fraction of alternative protein types in the market[AltEggs,PrecFerm]": "float64",
+    "Fraction of alternative protein types in the market[AltEggs,Cult]": "float64",
+    "FWL Fraction Variation by Supply Chain[Consumption]": "float64",
+    "FWL Fraction Variation by Supply Chain[Distribution]": "float64",
+    "FWL Fraction Variation by Supply Chain[Processing]": "float64",
+    "FWL Fraction Variation by Supply Chain[PostHarvest]": "float64",
+    "FWL Fraction Variation by Supply Chain[PrimaryProduction]": "float64",
+    "Global Diet Composition Switch": "float64",
+    "Recovered Loss Production Response Variation": "float64",
+    "Recovered Waste Production Response Variation": "float64",
+    "Yield Multiplier Switch": "float64",
+    "scenario": "category",
+    "policy": "category",
+    "model": "category"
+  }
+}

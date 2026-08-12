@@ -1,0 +1,17 @@
+name: felixcheck
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python==3.11.14
+  - pysd
+  - ipykernel
+  - matplotlib
+  - xlsxwriter==3.2.9
+  - netcdf4
+  - scikit-learn
+  - scipy=1.15.3
+  - statsmodels==0.14.4
+prefix: C:\Users\tanryan\AppData\Local\anaconda3\envs\felixcheck
